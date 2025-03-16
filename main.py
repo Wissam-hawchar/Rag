@@ -29,9 +29,9 @@ class UrlRequest(BaseModel):
     url: str
 # Configuration
 class Settings(BaseModel):
-    neo4j_uri: str = "bolt://localhost:7687"
+    neo4j_uri: str = "neo4j+s://ffff5c48.databases.neo4j.io"
     neo4j_user: str = "neo4j"
-    neo4j_password: str = "wissam1981"
+    neo4j_password: str = "dLAoJC2M4uo-jhymolkOc4fH6MKzFInaHInujc85W1g"
     together_api_key: str = "1fb14972d9a3b44b6082102760de47ec8888d0266d7729a0cf7264366e172038"
     embedding_model: str = "sentence-transformers/all-MiniLM-L6-v2"
     llm_model: str = "meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo"
