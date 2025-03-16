@@ -1,1 +1,11 @@
 fastapi[all]
+trafilatura
+langchain
+langchain-community
+langchain-experimental
+neo4j
+wikipedia
+tiktoken
+yfiles_jupyter_graphs
+langchain-together
+langchain-huggingface
