@@ -35,8 +35,7 @@ class Settings(BaseModel):
     together_api_key: str = "1fb14972d9a3b44b6082102760de47ec8888d0266d7729a0cf7264366e172038"
     embedding_model: str = "sentence-transformers/all-MiniLM-L6-v2"
     llm_model: str = "meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo"
-    class Config:
-        env_file = ".env"
+
 
 settings = Settings()
 
